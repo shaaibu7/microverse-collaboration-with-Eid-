@@ -1,0 +1,51 @@
+*{
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+
+
+.list {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    
+    
+    
+    text-decoration: none;
+}
+
+
+#header-img {
+    display: inline;
+    height: 100px;
+    width: auto;
+}
+
+#video {
+    height: 500px;
+    width: auto;
+}
+
+@media (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+}
+
+button {
+    border: 5px solid orange;
+    padding: 5px 15px;
+}
+
+input {
+    border: 5px solid orange;
+    padding: 5px 15px;
+}
